@@ -82,7 +82,6 @@ references:
     branches:
       only:
         - master
-        - matth/fix-docs-site
 
 jobs:
 
