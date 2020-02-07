@@ -122,6 +122,11 @@ It will optionally group today's articles into "latest" and "earlier" too.</p>
 <td>String</td>
 <td>A CSRF token that will be used by the save buttons (if shown).</td>
 </tr>
+<tr>
+<td><code class="language-text">latestItemsAgeHours</code></td>
+<td>Number</td>
+<td>(Optional). If provided, used to calculate a cutoff time before which no article will count as "latest", regardless of the value of <code class="language-text">latestItemsTime</code>. If omitted, articles before midnight this morning will not count as "latest".</td>
+</tr>
 </tbody>
 </table>
 <p>Example:</p>
